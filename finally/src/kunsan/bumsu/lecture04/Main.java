@@ -6,7 +6,7 @@ import kunsan.bumsu.lecture05.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
+public class Main { //Main 함수
     public void homePage() {
         System.out.println("-- 다음의 프로그램들 중에서 수행할 함수를 선택하시오.--");
         System.out.println("1) 커피 메뉴를 넣으면 가격을 출력해 주는 프로그램");
