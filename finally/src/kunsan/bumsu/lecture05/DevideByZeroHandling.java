@@ -16,6 +16,11 @@ public class DevideByZeroHandling {
         	try {
         		System.out.print("나뉨수를 입력하시오 : ");
                 dividend=scanner.nextInt();    // 나뉨수 입력
+                if (dividend == 1234) {
+                    System.out.println("프로그램을 종료합니다.");
+                    check = 1;
+                    break;
+                }
                 System.out.print("나눗수를 입력하시오 : ");
                 divisor = scanner.nextInt();    // 나눗수 입력
         	}
@@ -31,11 +36,7 @@ public class DevideByZeroHandling {
             catch(ArithmeticException e) {   // ArithmeticException 예외 처리 코드
                 System.out.println("0으로 나눌 수 없습니다! \n 다시 입력하세요.");
             }
-            if (dividend == 1234) {
-                System.out.println("프로그램을 종료합니다.");
-                check = 1;
-                break;
-            }
+            
         }
     }
 
