@@ -16,6 +16,7 @@ public class Main { //Main 함수
         System.out.println("5) 99단 단순 찍기");
         System.out.println("6) 99단 출력단수와 수의 범위 설정해서 프린트하기");
         System.out.println("7) 안전한 나눗셈 프로그램 만들기 : __ArithmeticException");
+        System.out.println("8) 학생 성적 처리 프로그램");
         System.out.println("0) 종료");
     }
 
