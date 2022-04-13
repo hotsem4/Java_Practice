@@ -92,7 +92,7 @@ public class StudentGradeManage {
 					System.out.print(test[i]+"\t");
 				}
 			}
-			System.out.println(test[1]);
+			
 			
 			System.out.println("");
 			
