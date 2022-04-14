@@ -1,7 +1,8 @@
 package kunsan.bumsu.lecture04;
 
-import kunsan.bumsu.lecture04.*;
+
 import kunsan.bumsu.lecture05.*;
+import kunsan.bumsu.student1.*;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -52,6 +53,10 @@ public class Main { //Main 함수
             	DevideByZeroHandling devidebyzerohandling = new DevideByZeroHandling();
             	devidebyzerohandling.testSafeException();
             	break;
+            case 8:
+            	InterF interf = new InterF();
+            	interf.mainCopy();
+            	
             case 0:
                 System.out.println("프로그램을 종료합니다.");
                 break;
