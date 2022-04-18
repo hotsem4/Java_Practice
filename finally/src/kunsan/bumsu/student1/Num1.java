@@ -23,11 +23,9 @@ public class Num1{
 			try {
 				Scanner scanner = new Scanner(System.in);
 				grade = scanner.nextInt();
-				if (grade > 100) {
-					while(grade > 100) {
-						System.out.println("성적을 다시 입력해주세요.");
-						grade = scanner.nextInt();
-					}
+				while (grade > 100) {
+					System.out.println("성적을 다시 입력해주세요.");
+					grade = scanner.nextInt();
 				}
 				student[i] = grade;
 			}
