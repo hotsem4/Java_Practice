@@ -3,7 +3,7 @@ package kunsan.bumsu.testpro;
 import java.util.Scanner;
 
 public class Test {
-	public void testArray() {
+	public static void main(String[] args){
 		int a = 0;
 		int b = 0;
 		
